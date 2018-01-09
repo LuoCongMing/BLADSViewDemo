@@ -44,20 +44,18 @@
 }
 
 -(void)countDown{
-    __block int time = 3;
-    if (@available(iOS 10.0, *)) {
-        NSTimer*timer = [NSTimer scheduledTimerWithTimeInterval:1.0 repeats:YES block:^(NSTimer * _Nonnull timer) {
-            time--;
-            if (time==0) {
-                [timer invalidate];
-                [UIApplication sharedApplication].delegate.window.rootViewController = self.rootViewController;
-            }
-            self.timeLabel.text = [NSString stringWithFormat:@"%d 跳过",time];
-        }];
-        [[NSRunLoop currentRunLoop]addTimer:timer forMode:NSRunLoopCommonModes];
-    } else {
-        // Fallback on earlier versions
+    NSTimer*timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(repeat:) userInfo:nil repeats:YES];
+    [[NSRunLoop currentRunLoop]addTimer:timer forMode:NSRunLoopCommonModes];
+  
+}
+-(void)repeat:(NSTimer*)timer{
+    static int time = 3;
+    time--;
+    if (time==0) {
+        [timer invalidate];
+        [UIApplication sharedApplication].delegate.window.rootViewController = self.rootViewController;
     }
+    self.timeLabel.text = [NSString stringWithFormat:@"%d 跳过",time];
 }
 //点击广告图片
 - (IBAction)tap:(id)sender {
