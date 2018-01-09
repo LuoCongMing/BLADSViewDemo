@@ -7,25 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E09481B6F13C8C11AA92CE9D /* libPods-BLADSViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D731D0E04635A4B1FEA826 /* libPods-BLADSViewDemo.a */; };
 		F4ED652620046ABC00176EA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ED652520046ABC00176EA8 /* AppDelegate.m */; };
 		F4ED652920046ABC00176EA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ED652820046ABC00176EA8 /* ViewController.m */; };
-		F4ED652C20046ABC00176EA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4ED652A20046ABC00176EA8 /* Main.storyboard */; };
 		F4ED652E20046ABC00176EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4ED652D20046ABC00176EA8 /* Assets.xcassets */; };
-		F4ED653120046ABC00176EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4ED652F20046ABC00176EA8 /* LaunchScreen.storyboard */; };
 		F4ED653420046ABC00176EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ED653320046ABC00176EA8 /* main.m */; };
+		F4ED654120046AC300176EA8 /* BLADSInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ED653C20046AC300176EA8 /* BLADSInfoViewController.m */; };
+		F4ED654220046AC300176EA8 /* BLADSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ED653F20046AC300176EA8 /* BLADSViewController.m */; };
+		F4ED654320046AC300176EA8 /* BLADSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4ED654020046AC300176EA8 /* BLADSViewController.xib */; };
+		F4ED65522004B18100176EA8 /* navbar_btn_back_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4ED65502004B18100176EA8 /* navbar_btn_back_green@2x.png */; };
+		F4ED65532004B18100176EA8 /* navbar_btn_back_green@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4ED65512004B18100176EA8 /* navbar_btn_back_green@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66F8764C760C1E0EA07CBD73 /* Pods-BLADSViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLADSViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLADSViewDemo/Pods-BLADSViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		760FB6D5F714E5FE3A0A99DB /* Pods-BLADSViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLADSViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLADSViewDemo/Pods-BLADSViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C9D731D0E04635A4B1FEA826 /* libPods-BLADSViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BLADSViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4ED652120046ABC00176EA8 /* BLADSViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLADSViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4ED652420046ABC00176EA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4ED652520046ABC00176EA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F4ED652720046ABC00176EA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F4ED652820046ABC00176EA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F4ED652B20046ABC00176EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4ED652D20046ABC00176EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F4ED653020046ABC00176EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4ED653220046ABC00176EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4ED653320046ABC00176EA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4ED653B20046AC300176EA8 /* BLADSInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLADSInfoViewController.h; sourceTree = "<group>"; };
+		F4ED653C20046AC300176EA8 /* BLADSInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLADSInfoViewController.m; sourceTree = "<group>"; };
+		F4ED653D20046AC300176EA8 /* BLADSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLADSView.h; sourceTree = "<group>"; };
+		F4ED653E20046AC300176EA8 /* BLADSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLADSViewController.h; sourceTree = "<group>"; };
+		F4ED653F20046AC300176EA8 /* BLADSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLADSViewController.m; sourceTree = "<group>"; };
+		F4ED654020046AC300176EA8 /* BLADSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLADSViewController.xib; sourceTree = "<group>"; };
+		F4ED65502004B18100176EA8 /* navbar_btn_back_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_btn_back_green@2x.png"; sourceTree = "<group>"; };
+		F4ED65512004B18100176EA8 /* navbar_btn_back_green@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar_btn_back_green@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09481B6F13C8C11AA92CE9D /* libPods-BLADSViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CBFFE1CCE692EA2C59EE378 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9D731D0E04635A4B1FEA826 /* libPods-BLADSViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB3AE6ACA28D167F88620B1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				760FB6D5F714E5FE3A0A99DB /* Pods-BLADSViewDemo.debug.xcconfig */,
+				66F8764C760C1E0EA07CBD73 /* Pods-BLADSViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F4ED651820046ABC00176EA8 = {
 			isa = PBXGroup;
 			children = (
+				F4ED653A20046AC300176EA8 /* BLADSView */,
 				F4ED652320046ABC00176EA8 /* BLADSViewDemo */,
 				F4ED652220046ABC00176EA8 /* Products */,
+				CB3AE6ACA28D167F88620B1F /* Pods */,
+				4CBFFE1CCE692EA2C59EE378 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,13 +96,26 @@
 				F4ED652520046ABC00176EA8 /* AppDelegate.m */,
 				F4ED652720046ABC00176EA8 /* ViewController.h */,
 				F4ED652820046ABC00176EA8 /* ViewController.m */,
-				F4ED652A20046ABC00176EA8 /* Main.storyboard */,
 				F4ED652D20046ABC00176EA8 /* Assets.xcassets */,
-				F4ED652F20046ABC00176EA8 /* LaunchScreen.storyboard */,
+				F4ED65502004B18100176EA8 /* navbar_btn_back_green@2x.png */,
+				F4ED65512004B18100176EA8 /* navbar_btn_back_green@3x.png */,
 				F4ED653220046ABC00176EA8 /* Info.plist */,
 				F4ED653320046ABC00176EA8 /* main.m */,
 			);
 			path = BLADSViewDemo;
+			sourceTree = "<group>";
+		};
+		F4ED653A20046AC300176EA8 /* BLADSView */ = {
+			isa = PBXGroup;
+			children = (
+				F4ED653B20046AC300176EA8 /* BLADSInfoViewController.h */,
+				F4ED653C20046AC300176EA8 /* BLADSInfoViewController.m */,
+				F4ED653D20046AC300176EA8 /* BLADSView.h */,
+				F4ED653E20046AC300176EA8 /* BLADSViewController.h */,
+				F4ED653F20046AC300176EA8 /* BLADSViewController.m */,
+				F4ED654020046AC300176EA8 /* BLADSViewController.xib */,
+			);
+			path = BLADSView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4ED653720046ABC00176EA8 /* Build configuration list for PBXNativeTarget "BLADSViewDemo" */;
 			buildPhases = (
+				7293AAEF2FC25F84CD622FCE /* [CP] Check Pods Manifest.lock */,
 				F4ED651D20046ABC00176EA8 /* Sources */,
 				F4ED651E20046ABC00176EA8 /* Frameworks */,
 				F4ED651F20046ABC00176EA8 /* Resources */,
+				86BD217B87C6EFBCA2335ADD /* [CP] Embed Pods Frameworks */,
+				2A4F38D7537BEAB7FC078C79 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,13 +179,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4ED653120046ABC00176EA8 /* LaunchScreen.storyboard in Resources */,
+				F4ED654320046AC300176EA8 /* BLADSViewController.xib in Resources */,
 				F4ED652E20046ABC00176EA8 /* Assets.xcassets in Resources */,
-				F4ED652C20046ABC00176EA8 /* Main.storyboard in Resources */,
+				F4ED65522004B18100176EA8 /* navbar_btn_back_green@2x.png in Resources */,
+				F4ED65532004B18100176EA8 /* navbar_btn_back_green@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A4F38D7537BEAB7FC078C79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLADSViewDemo/Pods-BLADSViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7293AAEF2FC25F84CD622FCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86BD217B87C6EFBCA2335ADD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLADSViewDemo/Pods-BLADSViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4ED651D20046ABC00176EA8 /* Sources */ = {
@@ -143,31 +242,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4ED652920046ABC00176EA8 /* ViewController.m in Sources */,
+				F4ED654120046AC300176EA8 /* BLADSInfoViewController.m in Sources */,
 				F4ED653420046ABC00176EA8 /* main.m in Sources */,
 				F4ED652620046ABC00176EA8 /* AppDelegate.m in Sources */,
+				F4ED654220046AC300176EA8 /* BLADSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F4ED652A20046ABC00176EA8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4ED652B20046ABC00176EA8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F4ED652F20046ABC00176EA8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4ED653020046ABC00176EA8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F4ED653520046ABC00176EA8 /* Debug */ = {
@@ -276,29 +358,35 @@
 		};
 		F4ED653820046ABC00176EA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 760FB6D5F714E5FE3A0A99DB /* Pods-BLADSViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXFJQVDBN2;
 				INFOPLIST_FILE = BLADSViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JMCD.BLADSViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F4ED653920046ABC00176EA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F8764C760C1E0EA07CBD73 /* Pods-BLADSViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXFJQVDBN2;
 				INFOPLIST_FILE = BLADSViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JMCD.BLADSViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

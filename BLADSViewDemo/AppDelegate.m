@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "BLADSView.h"
+#import "ViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +19,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor blackColor];
+    
+    UINavigationController*nav = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
+    
+    BLADSViewController*ads = [[BLADSViewController alloc]initWithADSUrl:[NSURL URLWithString:@"http://www.baidu.com"] ImageUrl:[NSURL URLWithString:@"http://www.qqjia.com/z/11/tu13234_6.jpg"] RootViewController:nav];
+//    ads.isNeedCloseButton = YES;
+//    ads.backImage = [UIImage imageNamed:@"navbar_btn_back_green"];
+    self.window.rootViewController = ads;
+    [self.window makeKeyAndVisible];  
     return YES;
 }
 
